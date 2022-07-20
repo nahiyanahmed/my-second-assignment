@@ -1,30 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,400&display=swap');
-.container{
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    align-items: center;
-}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&display=swap');
+
 body{
     font-family: 'Poppins', sans-serif;
 }
 
 
-
-
-
+.center{
+    display: flex;
+    justify-content: center;
+}
 .tension{
     width: 1200px;
     height: 700px;
     border-radius: 20px;
-    
-    
     background-color: black;
     display: flex;
-    
-}
-.center{
-    display: flex;
-    justify-content: center;
 }
 .half-width{
     width: 50%;
@@ -37,9 +27,7 @@ h1{
     font-size: 80px;
     color:white ;
     margin-bottom: 0;
-    
-    
-}
+}    
 h3{
     color: white;
 }
@@ -49,12 +37,10 @@ h3{
     padding:10px 40px ;
     border-radius: 10px;
     color: white;
-    font-weight: 700;
-    height: 30px;
-    border: 5px
+    font-weight:700;
+    width: 30px;
+    border: 2px 
 }
-
-
 .box{
     height: 200px;
     width: 220px;
@@ -74,54 +60,29 @@ input{
 input[type=link]{
     background-color: red;
 }
-.text{
-    color: black;
-}
-.blog{
+.match{
     display: flex;
-    
-    row-gap: 5px;
-    column-gap: 0px;
+    justify-content: center;
 }
-.blogs{
+.boxes{
+    width: 250px;
+    height: 220px;
+    border: 2px solid rgb(155, 151, 151);
+}
+.country{
+    text-align: center;
+}
+.matches{
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+}    
+.upcomming{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    column-gap: 40px;
+    row-gap: 40px;
     
-
-    
-    
-}
-.flex{
-    display: flex;
-    justify-content: center;
-    
-}
-.flex p{
-    margin: 20px;
-    
-}
-.grid{
-    width: 1200px;
-    height: 700px;
-    margin-top: 50px;
-    border-radius: 20px;
-    display: flex;
-}
-.grids{
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-
-}
-.color{
-    color: white;
-    display: flex;
-    justify-content: center;
-    
-}
-#color{
-    color: white;
 }
 footer{
     
@@ -130,6 +91,27 @@ footer{
     border-radius: 20px;
     background-color: black;  
 }
+.color{
+    color: white;
+    display: flex;
+    justify-content: center;
+    
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    
+}
+.flex p{
+    margin: 30px;
+    font-size: 30px;
+    
+}
+   #color{
+    color:white ;
+   } 
+    
+
 .pera{
     display: flex;
     justify-content: center;
@@ -144,19 +126,3 @@ footer{
 .icon p{
     margin: 40px;
 }
-/* media quary */  
-@media only screen and (max-width:688px) {
-        .center{
-            width:100%
-        }
-        .{
-            grid-template-columns: repeat(1, 1fr);
-        }
-}
-
-
-
-
-
-
-
